@@ -19,7 +19,9 @@ public class Main {
             @Override
             public void run() {
                 new ARMs();
+                System.out.println("Hello");
             }
         });
+
     }
 }
