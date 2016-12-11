@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DBProject:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DBProject_jar</output-path>
+    <root id="archive" name="DBProject.jar">
+      <element id="module-output" name="DBProject" />
+      <element id="module-test-output" name="DBProject" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.31/mysql-connector-java-5.1.31.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.31" />
+    </root>
+  </artifact>
+</component>

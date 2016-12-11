@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - tabeldb@localhost" uuid="49a9947b-e6b5-4837-8577-6ab20fc2ad1d">
+    <database-info product="MySQL" version="5.6.31-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="tabeldb">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="information_schema"/>
+      <schema id="3" name="mysql"/>
+      <schema id="4" name="performance_schema"/>
+      <schema id="5" name="db_shop"/>
+      <table id="6" parent="1" name="1_2018"/>
+      <table id="7" parent="1" name="1_2016"/>
+      <table id="8" parent="1" name="1_2017"/>
+      <table id="9" parent="1" name="3_2017"/>
+      <table id="10" parent="1" name="4_2016"/>
+      <table id="11" parent="1" name="ved_1_2016"/>
+      <table id="12" parent="1" name="ved_1_2017"/>
+      <table id="13" parent="1" name="ved_1_2018"/>
+      <column id="14" parent="6" name="fio">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="15" parent="6" name="tab_num">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="16" parent="6" name="dolzh">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="17" parent="6" name="razr">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="18" parent="6" name="MVZ">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="19" parent="6" name="vid_rab">
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="20" parent="6" name="m1">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="21" parent="6" name="m2">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="22" parent="6" name="m3">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="23" parent="6" name="m4">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="24" parent="6" name="m5">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="25" parent="6" name="m6">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="26" parent="6" name="m7">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="27" parent="6" name="m8">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="28" parent="6" name="m9">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="29" parent="6" name="m10">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="30" parent="6" name="m11">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="31" parent="6" name="m12">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="32" parent="6" name="m13">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="33" parent="6" name="m14">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="34" parent="6" name="m15">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="35" parent="6" name="m16">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="36" parent="6" name="m17">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="37" parent="6" name="m18">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="38" parent="6" name="m19">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="39" parent="6" name="m20">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="40" parent="6" name="m21">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="41" parent="6" name="m22">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="42" parent="6" name="m23">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="43" parent="6" name="m24">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="44" parent="6" name="m25">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="45" parent="6" name="m26">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="46" parent="6" name="m27">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="47" parent="6" name="m28">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="48" parent="6" name="m29">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="49" parent="6" name="m30">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="50" parent="6" name="m31">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="51" parent="6" name="fakt_rab">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="52" parent="6" name="otp_O">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="53" parent="6" name="otp_reb_R">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="54" parent="6" name="netrud_B">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="55" parent="6" name="razr_zak_GD">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="56" parent="6" name="razr_adm_A">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="57" parent="6" name="uch_U">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="58" parent="6" name="progul_P">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="59" parent="6" name="komand_K">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="60" parent="6" name="vyh_prazd_V">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="61" parent="6" name="vsego_dney">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="62" parent="6" name="vsego_chas">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="63" parent="6" name="otrab_fakt">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="64" parent="6" name="sverh_ur">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="65" parent="6" name="doplata">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="66" parent="6" name="noch">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="67" parent="6" name="vputi">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="68" parent="6" name="zavaht">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="69" parent="6" name="zakaz">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="70" parent="7" name="fio">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="71" parent="7" name="tab_num">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="72" parent="7" name="dolzh">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="73" parent="7" name="razr">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="74" parent="7" name="MVZ">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="75" parent="7" name="vid_rab">
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="76" parent="7" name="m1">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="77" parent="7" name="m2">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="78" parent="7" name="m3">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="79" parent="7" name="m4">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="80" parent="7" name="m5">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="81" parent="7" name="m6">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="82" parent="7" name="m7">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="83" parent="7" name="m8">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="84" parent="7" name="m9">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="85" parent="7" name="m10">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="86" parent="7" name="m11">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="87" parent="7" name="m12">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="88" parent="7" name="m13">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="89" parent="7" name="m14">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="90" parent="7" name="m15">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="91" parent="7" name="m16">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="92" parent="7" name="m17">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="93" parent="7" name="m18">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="94" parent="7" name="m19">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="95" parent="7" name="m20">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="96" parent="7" name="m21">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="97" parent="7" name="m22">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="98" parent="7" name="m23">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="99" parent="7" name="m24">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="100" parent="7" name="m25">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="101" parent="7" name="m26">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="102" parent="7" name="m27">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="103" parent="7" name="m28">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="104" parent="7" name="m29">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="105" parent="7" name="m30">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="106" parent="7" name="m31">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="107" parent="7" name="fakt_rab">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="108" parent="7" name="otp_O">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="109" parent="7" name="otp_reb_R">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="110" parent="7" name="netrud_B">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="111" parent="7" name="razr_zak_GD">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="112" parent="7" name="razr_adm_A">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="113" parent="7" name="uch_U">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="114" parent="7" name="progul_P">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="115" parent="7" name="komand_K">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="116" parent="7" name="vyh_prazd_V">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="117" parent="7" name="vsego_dney">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="118" parent="7" name="vsego_chas">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="119" parent="7" name="otrab_fakt">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="120" parent="7" name="sverh_ur">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="121" parent="7" name="doplata">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="122" parent="7" name="noch">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="123" parent="7" name="vputi">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="124" parent="7" name="zavaht">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="125" parent="7" name="zakaz">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="126" parent="8" name="fio">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="127" parent="8" name="tab_num">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="128" parent="8" name="dolzh">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="129" parent="8" name="razr">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="130" parent="8" name="MVZ">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="131" parent="8" name="vid_rab">
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="132" parent="8" name="m1">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="133" parent="8" name="m2">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="134" parent="8" name="m3">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="135" parent="8" name="m4">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="136" parent="8" name="m5">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="137" parent="8" name="m6">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="138" parent="8" name="m7">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="139" parent="8" name="m8">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="140" parent="8" name="m9">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="141" parent="8" name="m10">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="142" parent="8" name="m11">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="143" parent="8" name="m12">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="144" parent="8" name="m13">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="145" parent="8" name="m14">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="146" parent="8" name="m15">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="147" parent="8" name="m16">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="148" parent="8" name="m17">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="149" parent="8" name="m18">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="150" parent="8" name="m19">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="151" parent="8" name="m20">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="152" parent="8" name="m21">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="153" parent="8" name="m22">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="154" parent="8" name="m23">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="155" parent="8" name="m24">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="156" parent="8" name="m25">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="157" parent="8" name="m26">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="158" parent="8" name="m27">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="159" parent="8" name="m28">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="160" parent="8" name="m29">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="161" parent="8" name="m30">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="162" parent="8" name="m31">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="163" parent="8" name="fakt_rab">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="164" parent="8" name="otp_O">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="165" parent="8" name="otp_reb_R">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="166" parent="8" name="netrud_B">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="167" parent="8" name="razr_zak_GD">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="168" parent="8" name="razr_adm_A">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="169" parent="8" name="uch_U">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="170" parent="8" name="progul_P">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="171" parent="8" name="komand_K">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="172" parent="8" name="vyh_prazd_V">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="173" parent="8" name="vsego_dney">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="174" parent="8" name="vsego_chas">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="175" parent="8" name="otrab_fakt">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="176" parent="8" name="sverh_ur">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="177" parent="8" name="doplata">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="178" parent="8" name="noch">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="179" parent="8" name="vputi">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="180" parent="8" name="zavaht">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="181" parent="8" name="zakaz">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="182" parent="9" name="fio">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="183" parent="9" name="tab_num">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="184" parent="9" name="dolzh">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="185" parent="9" name="razr">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="186" parent="9" name="MVZ">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="187" parent="9" name="vid_rab">
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="188" parent="9" name="m1">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="189" parent="9" name="m2">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="190" parent="9" name="m3">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="191" parent="9" name="m4">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="192" parent="9" name="m5">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="193" parent="9" name="m6">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="194" parent="9" name="m7">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="195" parent="9" name="m8">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="196" parent="9" name="m9">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="197" parent="9" name="m10">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="198" parent="9" name="m11">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="199" parent="9" name="m12">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="200" parent="9" name="m13">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="201" parent="9" name="m14">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="202" parent="9" name="m15">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="203" parent="9" name="m16">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="204" parent="9" name="m17">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="205" parent="9" name="m18">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="206" parent="9" name="m19">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="207" parent="9" name="m20">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="208" parent="9" name="m21">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="209" parent="9" name="m22">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="210" parent="9" name="m23">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="211" parent="9" name="m24">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="212" parent="9" name="m25">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="213" parent="9" name="m26">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="214" parent="9" name="m27">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="215" parent="9" name="m28">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="216" parent="9" name="m29">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="217" parent="9" name="m30">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="218" parent="9" name="m31">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="219" parent="9" name="fakt_rab">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="220" parent="9" name="otp_O">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="221" parent="9" name="otp_reb_R">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="222" parent="9" name="netrud_B">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="223" parent="9" name="razr_zak_GD">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="224" parent="9" name="razr_adm_A">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="225" parent="9" name="uch_U">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="226" parent="9" name="progul_P">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="227" parent="9" name="komand_K">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="228" parent="9" name="vyh_prazd_V">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="229" parent="9" name="vsego_dney">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="230" parent="9" name="vsego_chas">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="231" parent="9" name="otrab_fakt">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="232" parent="9" name="sverh_ur">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="233" parent="9" name="doplata">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="234" parent="9" name="noch">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="235" parent="9" name="vputi">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="236" parent="9" name="zavaht">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="237" parent="9" name="zakaz">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="238" parent="10" name="fio">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="239" parent="10" name="tab_num">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="240" parent="10" name="dolzh">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="241" parent="10" name="razr">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="242" parent="10" name="MVZ">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="243" parent="10" name="vid_rab">
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="244" parent="10" name="m1">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="245" parent="10" name="m2">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="246" parent="10" name="m3">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="247" parent="10" name="m4">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="248" parent="10" name="m5">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="249" parent="10" name="m6">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="250" parent="10" name="m7">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="251" parent="10" name="m8">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="252" parent="10" name="m9">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="253" parent="10" name="m10">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="254" parent="10" name="m11">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="255" parent="10" name="m12">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="256" parent="10" name="m13">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="257" parent="10" name="m14">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="258" parent="10" name="m15">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="259" parent="10" name="m16">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="260" parent="10" name="m17">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="261" parent="10" name="m18">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="262" parent="10" name="m19">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="263" parent="10" name="m20">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="264" parent="10" name="m21">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="265" parent="10" name="m22">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="266" parent="10" name="m23">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="267" parent="10" name="m24">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="268" parent="10" name="m25">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="269" parent="10" name="m26">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="270" parent="10" name="m27">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="271" parent="10" name="m28">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="272" parent="10" name="m29">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="273" parent="10" name="m30">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="274" parent="10" name="m31">
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="275" parent="10" name="fakt_rab">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="276" parent="10" name="otp_O">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="277" parent="10" name="otp_reb_R">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="278" parent="10" name="netrud_B">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="279" parent="10" name="razr_zak_GD">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="280" parent="10" name="razr_adm_A">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="281" parent="10" name="uch_U">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="282" parent="10" name="progul_P">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="283" parent="10" name="komand_K">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="284" parent="10" name="vyh_prazd_V">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="285" parent="10" name="vsego_dney">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="286" parent="10" name="vsego_chas">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="287" parent="10" name="otrab_fakt">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="288" parent="10" name="sverh_ur">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="289" parent="10" name="doplata">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="290" parent="10" name="noch">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="291" parent="10" name="vputi">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="292" parent="10" name="zavaht">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="293" parent="10" name="zakaz">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="294" parent="11" name="tabnum">
+        <mandatory>1</mandatory>
+        <data-type>int(10)|0</data-type>
+      </column>
+      <column id="295" parent="11" name="fio">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="296" parent="11" name="dolzh">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="297" parent="11" name="razr">
+        <mandatory>1</mandatory>
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="298" parent="11" name="person">
+        <mandatory>1</mandatory>
+        <data-type>varchar(5)|0</data-type>
+      </column>
+      <column id="299" parent="11" name="oklad_tarif">
+        <mandatory>1</mandatory>
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="300" parent="11" name="dney">
+        <mandatory>1</mandatory>
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="301" parent="11" name="chas">
+        <mandatory>1</mandatory>
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="302" parent="11" name="norma_chas">
+        <mandatory>1</mandatory>
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="303" parent="11" name="sum_za_chas">
+        <mandatory>1</mandatory>
+        <data-type>int(4)|0</data-type>
+      </column>
+      <column id="304" parent="11" name="vyslugi">
+        <mandatory>1</mandatory>
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="305" parent="11" name="klass">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="306" parent="11" name="prem">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="307" parent="11" name="otopl">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="308" parent="11" name="osoboslozh">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="309" parent="11" name="RZO">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="310" parent="11" name="vred_chas">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="311" parent="11" name="vred_proc">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="312" parent="11" name="sverhur">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="313" parent="11" name="noch">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="314" parent="11" name="ekolog">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="315" parent="11" name="vyh_prazd">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="316" parent="11" name="tarif_proezd">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="317" parent="11" name="pers_dopl">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="318" parent="11" name="oklad">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="319" parent="11" name="oplata_netrud">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="320" parent="11" name="otpusk">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="321" parent="11" name="komp_za_otp">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="322" parent="11" name="raz_har_tr">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="323" parent="11" name="noch2">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="324" parent="11" name="prazd_vyh">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="325" parent="11" name="sverh_ur">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="326" parent="11" name="osob_slozh_usl">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="327" parent="11" name="dop_za_zon_obls">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="328" parent="11" name="dop_za_eko">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="329" parent="11" name="tarif">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="330" parent="11" name="vysluga_let">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="331" parent="11" name="nadb_kassif">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="332" parent="11" name="tyazh_usk_trud">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="333" parent="11" name="ezh_prem_rab">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="334" parent="11" name="nad_zvan_poch_zhez">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="335" parent="11" name="vsego_nach">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="336" parent="11" name="obyaz_pens">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="337" parent="11" name="ind_nalog">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="338" parent="11" name="den_sred_v_kasse">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="339" parent="11" name="den_sred_bank_shet">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="340" parent="11" name="dolzh_zp">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="341" parent="11" name="dolzh_po_prochim">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="342" parent="11" name="dolzh_po_obuch">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="343" parent="11" name="osn_sum_zadolzh">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="344" parent="11" name="osn_sum_komand">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="345" parent="11" name="kratk_kred_zadolzh">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="346" parent="11" name="sum_aliment">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="347" parent="11" name="sum_ud_s_rab">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="348" parent="11" name="proch_kred_dolg">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="349" parent="11" name="vsego_ud">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="350" parent="11" name="sum_k_vydache">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="351" parent="11" name="ch_co">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="352" parent="11" name="sum_soc_nal">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="353" parent="11" name="sum_soc_och">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="354" parent="11" name="nalog_vychety">
+        <data-type>decimal(12,2)|0</data-type>
+      </column>
+      <column id="355" parent="11" name="lgota">
+        <data-type>decimal(12,2)|0</data-type>
+      </column>
+      <column id="356" parent="12" name="tabnum">
+        <mandatory>1</mandatory>
+        <data-type>int(10)|0</data-type>
+      </column>
+      <column id="357" parent="12" name="fio">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="358" parent="12" name="dolzh">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="359" parent="12" name="razr">
+        <mandatory>1</mandatory>
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="360" parent="12" name="person">
+        <mandatory>1</mandatory>
+        <data-type>varchar(5)|0</data-type>
+      </column>
+      <column id="361" parent="12" name="oklad_tarif">
+        <mandatory>1</mandatory>
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="362" parent="12" name="dney">
+        <mandatory>1</mandatory>
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="363" parent="12" name="chas">
+        <mandatory>1</mandatory>
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="364" parent="12" name="norma_chas">
+        <mandatory>1</mandatory>
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="365" parent="12" name="sum_za_chas">
+        <mandatory>1</mandatory>
+        <data-type>int(4)|0</data-type>
+      </column>
+      <column id="366" parent="12" name="vyslugi">
+        <mandatory>1</mandatory>
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="367" parent="12" name="klass">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="368" parent="12" name="prem">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="369" parent="12" name="otopl">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="370" parent="12" name="osoboslozh">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="371" parent="12" name="RZO">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="372" parent="12" name="vred_chas">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="373" parent="12" name="vred_proc">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="374" parent="12" name="sverhur">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="375" parent="12" name="noch">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="376" parent="12" name="ekolog">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="377" parent="12" name="vyh_prazd">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="378" parent="12" name="tarif_proezd">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="379" parent="12" name="pers_dopl">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="380" parent="12" name="oklad">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="381" parent="12" name="oplata_netrud">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="382" parent="12" name="otpusk">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="383" parent="12" name="komp_za_otp">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="384" parent="12" name="raz_har_tr">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="385" parent="12" name="noch2">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="386" parent="12" name="prazd_vyh">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="387" parent="12" name="sverh_ur">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="388" parent="12" name="osob_slozh_usl">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="389" parent="12" name="dop_za_zon_obls">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="390" parent="12" name="dop_za_eko">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="391" parent="12" name="tarif">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="392" parent="12" name="vysluga_let">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="393" parent="12" name="nadb_kassif">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="394" parent="12" name="tyazh_usk_trud">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="395" parent="12" name="ezh_prem_rab">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="396" parent="12" name="nad_zvan_poch_zhez">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="397" parent="12" name="vsego_nach">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="398" parent="12" name="obyaz_pens">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="399" parent="12" name="ind_nalog">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="400" parent="12" name="den_sred_v_kasse">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="401" parent="12" name="den_sred_bank_shet">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="402" parent="12" name="dolzh_zp">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="403" parent="12" name="dolzh_po_prochim">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="404" parent="12" name="dolzh_po_obuch">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="405" parent="12" name="osn_sum_zadolzh">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="406" parent="12" name="osn_sum_komand">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="407" parent="12" name="kratk_kred_zadolzh">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="408" parent="12" name="sum_aliment">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="409" parent="12" name="sum_ud_s_rab">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="410" parent="12" name="proch_kred_dolg">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="411" parent="12" name="vsego_ud">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="412" parent="12" name="sum_k_vydache">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="413" parent="12" name="ch_co">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="414" parent="12" name="sum_soc_nal">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="415" parent="12" name="sum_soc_och">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="416" parent="12" name="nalog_vychety">
+        <data-type>decimal(12,2)|0</data-type>
+      </column>
+      <column id="417" parent="12" name="lgota">
+        <data-type>decimal(12,2)|0</data-type>
+      </column>
+      <column id="418" parent="13" name="tabnum">
+        <mandatory>1</mandatory>
+        <data-type>int(10)|0</data-type>
+      </column>
+      <column id="419" parent="13" name="fio">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="420" parent="13" name="dolzh">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="421" parent="13" name="razr">
+        <mandatory>1</mandatory>
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="422" parent="13" name="person">
+        <mandatory>1</mandatory>
+        <data-type>varchar(5)|0</data-type>
+      </column>
+      <column id="423" parent="13" name="oklad_tarif">
+        <mandatory>1</mandatory>
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="424" parent="13" name="dney">
+        <mandatory>1</mandatory>
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="425" parent="13" name="chas">
+        <mandatory>1</mandatory>
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="426" parent="13" name="norma_chas">
+        <mandatory>1</mandatory>
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="427" parent="13" name="sum_za_chas">
+        <mandatory>1</mandatory>
+        <data-type>int(4)|0</data-type>
+      </column>
+      <column id="428" parent="13" name="vyslugi">
+        <mandatory>1</mandatory>
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="429" parent="13" name="klass">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="430" parent="13" name="prem">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="431" parent="13" name="otopl">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="432" parent="13" name="osoboslozh">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="433" parent="13" name="RZO">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="434" parent="13" name="vred_chas">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="435" parent="13" name="vred_proc">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="436" parent="13" name="sverhur">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="437" parent="13" name="noch">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="438" parent="13" name="ekolog">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="439" parent="13" name="vyh_prazd">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="440" parent="13" name="tarif_proezd">
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="441" parent="13" name="pers_dopl">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="442" parent="13" name="oklad">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="443" parent="13" name="oplata_netrud">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="444" parent="13" name="otpusk">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="445" parent="13" name="komp_za_otp">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="446" parent="13" name="raz_har_tr">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="447" parent="13" name="noch2">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="448" parent="13" name="prazd_vyh">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="449" parent="13" name="sverh_ur">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="450" parent="13" name="osob_slozh_usl">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="451" parent="13" name="dop_za_zon_obls">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="452" parent="13" name="dop_za_eko">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="453" parent="13" name="tarif">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="454" parent="13" name="vysluga_let">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="455" parent="13" name="nadb_kassif">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="456" parent="13" name="tyazh_usk_trud">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="457" parent="13" name="ezh_prem_rab">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="458" parent="13" name="nad_zvan_poch_zhez">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="459" parent="13" name="vsego_nach">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="460" parent="13" name="obyaz_pens">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="461" parent="13" name="ind_nalog">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="462" parent="13" name="den_sred_v_kasse">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="463" parent="13" name="den_sred_bank_shet">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="464" parent="13" name="dolzh_zp">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="465" parent="13" name="dolzh_po_prochim">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="466" parent="13" name="dolzh_po_obuch">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="467" parent="13" name="osn_sum_zadolzh">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="468" parent="13" name="osn_sum_komand">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="469" parent="13" name="kratk_kred_zadolzh">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="470" parent="13" name="sum_aliment">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="471" parent="13" name="sum_ud_s_rab">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="472" parent="13" name="proch_kred_dolg">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="473" parent="13" name="vsego_ud">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="474" parent="13" name="sum_k_vydache">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="475" parent="13" name="ch_co">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="476" parent="13" name="sum_soc_nal">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="477" parent="13" name="sum_soc_och">
+        <data-type>decimal(20,2)|0</data-type>
+      </column>
+      <column id="478" parent="13" name="nalog_vychety">
+        <data-type>decimal(12,2)|0</data-type>
+      </column>
+      <column id="479" parent="13" name="lgota">
+        <data-type>decimal(12,2)|0</data-type>
+      </column>
+    </database-model>
+  </data-source>
+</component>
